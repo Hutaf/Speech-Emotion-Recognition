@@ -44,8 +44,8 @@ SVM | 0.61 | 0.59 | 0.60  |  0.59
 ## Deep Learining Model
 Algorithm | **Accuracy** | Recall | Precision | F1-Score
 --------- | -------------| -------|-----------|---------
-NN | | | |
-CNN | | | |
+NN | 0.63 |   0.49  |   0.70 | 0.57
+CNN | 0.66 |   0.61   | 0.75 |  0.67
 
 
 ## Summary
