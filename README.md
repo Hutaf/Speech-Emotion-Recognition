@@ -37,9 +37,9 @@ To extract the useful features from the sound data, we will use Librosa library.
 ## Baseline Models - Machine Learning Models
 Algorithm | **Accuracy** | Recall | Precision | F1-Score
 --------- | -------------| -------|-----------|---------
-MLP | | | |
-Decision Tree | | | |
-SVM | | | |
+MLP | 0.62 |    0.60  | 0.62  |     0.60
+Decision Tree | 0.57 | 0.53  |  0.53 |  0.52
+SVM | 0.61 | 0.59 | 0.60  |  0.59
 
 ## Deep Learining Model
 Algorithm | **Accuracy** | Recall | Precision | F1-Score
