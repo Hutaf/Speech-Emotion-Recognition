@@ -34,36 +34,34 @@ To extract the useful features from the sound data, we will use Librosa library.
 
 ## Data Visualization
 
-### Wave-plot
+### Wave-plot of Fearful Female Track
 
 ![Wave-plot of Fearful Female Track](https://github.com/Hutaf/Speech-Emotion-Recognition/blob/main/Graphs/Fearful-waveplot.png
 )
 
+### Wave-plot of Happy Female Track
 ![Wave-plot of Happy Female Track](https://github.com/Hutaf/Speech-Emotion-Recognition/blob/main/Graphs/Happy-waveplot.png
 )
 
-### plot
+### Log of Mel Spectrogram of Fearful Female Track
 ![Log of Mel Spectrogram of Fearful Female Track](https://github.com/Hutaf/Speech-Emotion-Recognition/blob/main/Graphs/Mel-FearfulTrack.png
 )
 
+### Log of Mel Spectrogram of Happy Female Track
 ![Log of Mel Spectrogram of Happy Female Track](https://github.com/Hutaf/Speech-Emotion-Recognition/blob/main/Graphs/Mel-HappyTrack.png
 )
 
 ## Baseline Models - Machine Learning Models trained on all 8 emotions
-Algorithm | **Accuracy** | Recall | Precision | F1-Score
+Algorithm | Accuracy | Recall | Precision | **F1-Score**
 --------- | -------------| -------|-----------|---------
-**MLP (Scaled) | 0.66 |   0.64  |    0.64 |     0.64**
+**MLP (Scaled)** | 0.66 |   0.64  |    0.64 |     **0.64**
 SVM (Scaled) | 0.58 |     0.54 |  0.57 |   0.54
 XGB (Scaled) | 0.54 | 0.51     | 0.51   |   0.50
 Decision Tree (Unscaled) | 0.34 |    0.31 |  0.33 |   0.30 
 
 ## Deep Learining Model trained on only 5 emotions 
-Algorithm | **Accuracy** | Recall | Precision | F1-Score
+Algorithm | **Accuracy** | Recall | Precision | **F1-Score**
 --------- | -------------| -------|-----------|---------
-**CNN | 0.66 |   0.61   | 0.75 |  0.67**
+**CNN** | 0.66 |   0.61   | 0.75 |  **0.67**
 NN | 0.63 |   0.49  |   0.70 | 0.57
-
-
-## Summary
-
 
