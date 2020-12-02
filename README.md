@@ -66,4 +66,4 @@ Algorithm | **Accuracy** | Recall | Precision | **F1-Score**
 NN | 0.63 |   0.49  |   0.70 | 0.57
 CNN (Deep) | 0.53 |   0.26 | 0.81   | 0.39
 
-(For a detailed description)[https://hutaf.medium.com/speech-emotion-recognition-4b127985eb8f]
+[For a detailed description](https://hutaf.medium.com/speech-emotion-recognition-4b127985eb8f)
