@@ -1,4 +1,4 @@
-# Speech Sentiment Analysis
+# Speech Emotion Recognition
 
 ![Speech Sentiment Analysis](https://www.sri.com/wp-content/uploads/2019/09/OTO-v1-940x373.png)
 
@@ -34,19 +34,19 @@ To extract the useful features from the sound data, we will use Librosa library.
 5. Tonnetz: Computes the tonal centroid features (tonnetz).
 
 ## Data Visualization
-## Baseline Models - Machine Learning Models
+## Baseline Models - Machine Learning Models trained on all 8 emotions
 Algorithm | **Accuracy** | Recall | Precision | F1-Score
 --------- | -------------| -------|-----------|---------
 MLP (Scaled) | 0.66 |   0.64  |    0.64 |     0.64
+SVM (Scaled) | 0.58 |     0.54 |  0.57 |   0.54
 XGB (Scaled) | 0.54 | 0.51     | 0.51   |   0.50
-SVM | 0.58 |     0.54 |  0.57 |   0.54
 Decision Tree (Unscaled) | 0.34 |    0.31 |  0.33 |   0.30 
 
-## Deep Learining Model
+## Deep Learining Model trained on only 5 emotions 
 Algorithm | **Accuracy** | Recall | Precision | F1-Score
 --------- | -------------| -------|-----------|---------
-NN | 0.63 |   0.49  |   0.70 | 0.57
 CNN | 0.66 |   0.61   | 0.75 |  0.67
+NN | 0.63 |   0.49  |   0.70 | 0.57
 
 
 ## Summary
