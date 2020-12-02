@@ -62,6 +62,8 @@ Decision Tree (Unscaled) | 0.34 |    0.31 |  0.33 |   0.30
 ## Deep Learining Model trained on only 5 emotions 
 Algorithm | **Accuracy** | Recall | Precision | **F1-Score**
 --------- | -------------| -------|-----------|---------
-**CNN** | 0.66 |   0.61   | 0.75 |  **0.67**
+**CNN (Shallow)** | 0.66 |   0.61   | 0.75 |  **0.67**
 NN | 0.63 |   0.49  |   0.70 | 0.57
+**CNN (Deep)** | 0.53 |   0.26 | 0.81    |     | 0.39
+
 
